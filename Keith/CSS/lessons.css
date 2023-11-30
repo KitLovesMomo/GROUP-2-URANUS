@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@500&family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(180deg, #ffff, #1f4591b0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F4591;
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+}
+
+.navi {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navi li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navi a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav {
+    color: white;
+}
+
+.nav1 {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.navi .nav:hover {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.title {
+    padding: 15px 20px;
+    color: white;
+    background-color: #1F4591;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+.title-banner .info {
+    background-color: #1F4591;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+.title-banner img{
+    height: 380px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+.left  {
+    position: absolute;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.right  {
+    position: absolute;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 1320px;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@500&family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F4591;
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+}
+
+.navi {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navi li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navi a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav {
+    color: white;
+}
+
+.nav1 {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.navi .nav:hover {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.title {
+    padding: 15px 20px;
+    color: white;
+    background-image: linear-gradient(to bottom right, #1F4591, #000000f8);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+}
+
+.cv .pic {
+    background-image: linear-gradient(to bottom right, #1F4591, #000000f8);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px 50px;
+    transition: transform .2s;
+}
+
+.cv .pic:hover {
+    transform: scale(1.05);
+}
+
+.cv img {
+    height: 600px;
+    width: 450px;
+}

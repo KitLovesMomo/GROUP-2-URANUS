@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Group 2</title>
+        <link href="CSS/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul class="navi">
+                <li><a class="nav1" href="main.html">Home</a></li>
+                <li><a class="nav" href="topics.html">Topics</a></li>
+                <li><a class="nav" href="students.html">Students</a></li>
+                <li><a class="nav" href="cv.html">CV</a></li>
+            </ul>
+        </div>
+        
+        <div class="slides">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img class="caro" src="SRC/1.png">
+                    <div class="text1">STEM 12 B7</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="caro" src="SRC/2.png">
+                    <div class="text1">Work Smarter</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="caro" src="SRC/3.png">
+                    <div class="text1">New Jeans X STEM 12 B7</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="caro" src="SRC/4.png">
+                    <div class="text1">IVE Banner</div>
+                </div>
+                    
+                <div class="mySlides fade">
+                    <img class="caro" src="SRC/5.png">
+                    <div class="text1">Good Friend</div>
+                </div>
+                </div>
+                <br>
+    
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span>
+                    <span class="dot"></span> 
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- <hr class="line"> -->
+        <div class="title">
+            <p>Media and Information Literacy</p>
+        </div>
+        <div class="contents">
+            <div class="text">
+                <p>Media and Information Literacy (MIL) is a critical set of skills and competencies essential for navigating the complex and rapidly evolving media landscape. It involves the ability to access, analyze, evaluate, and create media content across various platforms. In today's information age, where news and content circulate at unprecedented speeds, MIL empowers individuals to become discerning consumers of media. This literacy extends beyond traditional literacy by encompassing digital and visual literacies, enabling people to decode the messages conveyed through images, videos, and online platforms. MIL equips individuals with the tools to distinguish between credible and unreliable sources, critically assess information, and understand the ethical implications of media consumption. By fostering a deeper understanding of media systems and their impact on society, MIL plays a crucial role in promoting informed citizenship and fostering a responsible and media-savvy global community.</p>
+            </div>
+            <div class="pic">
+                <img src="SRC/mil.png">
+            </div>
+        </div>
+
+        <hr class="line">
+
+        <p class="title">Topics</p>
+
+        <div class="buttons">
+            <a href="LESSONS/lesson1.html">
+                <div class="button">
+                    <img src="SRC/number/1.png">
+                </div>
+            </a>
+
+            <a href="LESSONS/lesson2.html">
+                <div class="button">
+                    <img src="SRC/number/2.png">
+                </div>
+            </a>
+
+            <a href="LESSONS/lesson3.html">
+                <div class="button">
+                    <img src="SRC/number/3.png">
+                </div>
+            </a>
+
+            <a href="LESSONS/lesson4.html">
+                <div class="button">
+                    <img src="SRC/number/4.png">
+                </div>
+            </a>
+            
+            <a href="LESSONS/lesson5.html">
+                <div class="button">
+                    <img src="SRC/number/5.png">
+                </div>
+            </a>
+        </div>
+
+        <div class="buttons">
+            <a href="LESSONS/lesson6.html">
+                <div class="button">
+                    <img src="SRC/number/6.png">
+                </div>
+            </a>
+            
+            <a href="LESSONS/lesson7.html">
+                <div class="button">
+                    <img src="SRC/number/7.png">
+                </div>
+            </a>
+            
+            <a href="LESSONS/lesson8.html">
+                <div class="button">
+                    <img src="SRC/number/8.png">
+                </div>
+            </a>
+
+            <a href="LESSONS/lesson9.html">
+                <div class="button">
+                    <img src="SRC/number/9.png">
+                </div>
+            </a>
+        </div>
+
+        <hr class="line">
+
+        <div class="footer">
+            <
+        </div>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 5000); 
+            }
+        </script>
+    </body>
+</html>

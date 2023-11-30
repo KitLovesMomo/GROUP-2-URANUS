@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@500&family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F4591;
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.navi {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navi li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navi a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav {
+    color: white;
+}
+
+.nav1 {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.navi .nav:hover {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.title {
+    padding: 15px 20px;
+    color: white;
+    background-image: linear-gradient(to bottom right, #1F4591, #000000f8);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+.students {
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #1F4591, #000000f8);
+    margin: 30px 400px 20px 400px;
+    border-radius: 15px;
+    transition: transform .2s;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+.students:hover {
+    transform: scale(1.05);
+}
+
+img {
+    height: 200px;
+    border-radius: 15px;
+}
+
+.students p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 55px 20px;
+}
+
+.students a {
+    text-decoration: none;
+    display: flex;
+}
